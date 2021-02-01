@@ -1,0 +1,14 @@
+html,
+body {
+    color: white;
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serifs;
+    font-size: 1.3rem;
+    padding: 70px;
+}
+
+button {
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 10px;
+}
