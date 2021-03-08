@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Multiple Custom Hooks Set Tests should  1`] = `
+<div>
+  <h1>
+    Breaking Quotes
+  </h1>
+  <hr />
+  <div
+    className="alert alert-info text-center"
+  >
+    Loading ... 
+  </div>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Siguiente Quote
+  </button>
+</div>
+`;

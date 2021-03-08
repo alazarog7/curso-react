@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RealExampleRef/> should show component correctly 1`] = `
+<Fragment>
+  <h1>
+    Refexample
+  </h1>
+  <div
+    style={
+      Object {
+        "padding": "10px 0 10px 0",
+      }
+    }
+  />
+  <button
+    className="btn btn-success"
+    onClick={[Function]}
+  >
+    MOSTRAR
+  </button>
+</Fragment>
+`;
