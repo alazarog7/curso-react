@@ -12,6 +12,7 @@ const AddCategory = ({setcategory})=> {
         e.preventDefault();
         if(inputValue.length > 0){
             setcategory([inputValue])
+            setinputValue('');
         }
         
     } 

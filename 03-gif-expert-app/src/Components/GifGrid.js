@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useFetchGifs } from '../Hooks/useFetchGifs';
 import { GifGridItem } from './GifGridItem';
+import { PropTypes } from 'prop-types';
 
 const GifGrid = ({category}) => {
 
@@ -10,7 +11,7 @@ const GifGrid = ({category}) => {
     return (
         <>
             <h3 className="animate__zoomInLeft">{category}</h3>
-            {loading && 'Cargando ...'}
+            {loading && <p>Cargando ...</p> }
             <div className="card-grid">
                 {
                     images.map( img => <GifGridItem key={img.id} {...img}/> )
@@ -21,4 +22,9 @@ const GifGrid = ({category}) => {
 };
 
 export default GifGrid;
+
+
+GifGrid.propTypes={
+    category: PropTypes.string.isRequired
+}
 
